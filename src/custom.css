@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- Navbar --- */
+@media (min-width: 992px) {
+  #navbarMenuToggler,
+  #navbarMenu,
+  #mdLogo {
+    display: none !important;
+  }
+}
+
+#header {
+  background-color: #005;
+}
+
+#lgNavbar {
+  height: 56px;
+  max-width: 992px;
+}
+
+.navbar-brand {
+  font-size: 24px !important;
+}
+
+#header a,
+#header div {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: white;
+}
+
+#lgNavbar .nav-item:focus,
+#lgNavbar .nav-item:hover {
+  color: #d0d0d0 !important;
+  border-bottom: 1px solid white;
+}
+
+#navbarMenu .nav-item:focus,
+#navbarMenu .nav-item:hover {
+  color: #d0d0d0 !important;
+}
+
+/* --- Hero content --- */
+.container {
+  max-width: 992px;
+}
